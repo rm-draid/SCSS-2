@@ -1,0 +1,20 @@
+@media (max-width: 1080px) {
+  .work_media {
+    display: none;
+  }
+  .show_all {
+    padding-left: 20%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services_blog {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .social {
+    display: flex;
+  }
+}

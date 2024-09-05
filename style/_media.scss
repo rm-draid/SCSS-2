@@ -1,0 +1,65 @@
+/*tilifon uchun stil*/
+@media (max-width: 570px) {
+  .link {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .show_all {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .portfolio {
+    padding-left: 5%;
+  }
+  .portfolio_project {
+    display: block;
+    width: 100%;
+    height: 50px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .central_part {
+    width: 73%;
+  }
+  .help_to_build {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 1100px;
+  }
+  .services_blog {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+  }
+  .service {
+    flex-direction: column;
+  }
+  .agency_menu {
+    margin-bottom: 40px;
+  }
+  .social {
+    margin-top: 50px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .terms_of_use {
+    padding-top: 40px;
+  }
+}

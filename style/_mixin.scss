@@ -1,0 +1,49 @@
+/*button uchun */
+.btn {
+  padding: 10px 34px;
+  border-radius: 10px;
+  background: fixed;
+  color: white;
+  transition: 1s;
+  border: 0.2px solid silver;
+}
+
+.more {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 45%;
+  background: white;
+  color: black;
+}
+
+.contact {
+  margin-top: 34px;
+  background: white;
+  color: black;
+  border: none;
+  font-weight: 900;
+  transition: 1s;
+}
+
+.btn:hover {
+  background: #1e88e5;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #1e88e5;
+}
+
+.grid-item:hover > img {
+  border-radius: 20px;
+
+  transform: scale(1.1);
+}
+.grid-item > img {
+  transition: 1.5s;
+  cursor: pointer;
+}
+img {
+  cursor: pointer;
+}
